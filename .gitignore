@@ -1,0 +1,4 @@
+/vendor/
+.env
+mac.phar
+mac

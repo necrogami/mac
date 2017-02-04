@@ -1,0 +1,29 @@
+{
+    "name": "necrogami/mac",
+    "description": "A suite of tools for a mac",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.2",
+        "symfony/process": "^3.2",
+        "aws/aws-sdk-php": "^3.21",
+        "league/flysystem": "^1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "league/flysystem-sftp": "^1.0",
+        "league/flysystem-ziparchive": "^1.0"
+    },
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Anton Swartz",
+            "email": "djnecrogami@gmail.com"
+        }
+    ],
+    "bin": ["bin/mac"],
+    "autoload": {
+        "psr-4": {
+            "Necrogami\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
